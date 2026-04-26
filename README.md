@@ -8,7 +8,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🏛️ System Architecture
-This repository contains the inference logic for an aerial-perspective object detection system developed as a Grade 12 (SHS) Capstone Research project. Leveraging the YOLOv11 architecture, the system is engineered to solve the specific computer vision challenges of top-down occlusion, dense clustering, and small bounding-box extraction.
+This repository contains the inference logic for an aerial-perspective object detection system developed as a Grade 12 (SHS) Capstone Research project. 
+*The logic flow derived from the research manuscript (illustrated in Figure 1 below) conceptualizes the multi-stage pipeline—from pre-processing localized inputs to feature extraction, multi-class categorization, and visualization.*
+
+<p align="center">
+  <img src="artifacts/cnn_architecture_diagram.png" width="1200" title="YOLOv11 Aerial System Logic Flow">
+  <br>
+  <em>Figure 1: Conceptualized multi-stage CNN classification pipeline utilized in the research methodology.</em>
+</p>
+
+### Implementation Details
+This codebase contains the technical implementation of the generalized logic flow above. Leveraging the YOLOv11 architecture for unified object detection, the system is engineered to solve the specific physical constraints of top-down occlusion, dense clustering, and small bounding-box extraction in real-time.
 
 ### Multi-Class Inference
 The model is specifically trained to accurately detect and classify nine (9) distinct types of land vehicles from drone/CCTV vantage points:
