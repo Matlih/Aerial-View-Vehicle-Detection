@@ -22,8 +22,13 @@ The model is specifically trained to accurately detect and classify nine (9) dis
 8. Motorcycle
 9. Emergency Vehicles
 
+
+
 ## 🛡️ Data Governance & Privacy
-**Sanitized Artifacts:** To ensure compliance with the Data Privacy Act of 2012 (Republic Act No. 10173), all validation batch images and prediction artifacts uploaded to this repository have been manually sanitized. Vehicle license plates and localized PII have been obfuscated prior to publication.
+### Sanitized Artifacts:
+To ensure compliance with the Data Privacy Act of 2012 (Republic Act No. 10173), all validation batch images and prediction artifacts uploaded to this repository have been manually sanitized. Vehicle license plates and localized PII have been obfuscated prior to publication.
+### Proprietary Data Acquisition & Engineering:
+This pipeline does not rely on standardized open-source datasets. To meet the specific environmental and top-down occlusion constraints of the research, the entire dataset was custom-engineered. All aerial traffic feeds were physically recorded, frame-extracted, and manually annotated using [Anaconda](https://www.anaconda.com/) to ensure precise bounding-box fidelity across all 9 vehicle classes.
 
 ## ⚙️ Quick Start & Reproducibility
 
