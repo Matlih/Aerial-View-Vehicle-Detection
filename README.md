@@ -50,7 +50,7 @@ python src/detect.py --weights weights/best.pt --source aerial_traffic_feed.mp4
 ```
 
 ## 📊 Training & Evaluation Metrics
-This model was evaluated in a cloud GPU environment (Google Colab with an NVIDIA T4) using images at 640×640 resolution. 
+This model was evaluated and trained in a cloud GPU environment (Google Colab with an NVIDIA T4) using images at 640×640 resolution. 
 The model was evaluated using four strict metrics designed for high-altitude computer vision:
 * Mean Average Precision (mAP@50): 94.2%
 * Precision: 92.5%
