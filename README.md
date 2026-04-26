@@ -12,7 +12,7 @@ This repository contains the inference logic for an aerial-perspective object de
 *The logic flow derived from the research manuscript (illustrated in Figure 1 below) conceptualizes the multi-stage pipeline—from pre-processing localized inputs to feature extraction, multi-class categorization, and visualization.*
 
 <p align="center">
-  <img src="artifacts/cnn_architecture_diagram.png" width="1200" title="YOLOv11 Aerial System Logic Flow">
+  <img src="artifacts/cnn_architecture_diagram.png" width="1800" title="YOLOv11 Aerial System Logic Flow">
   <br>
   <em>Figure 1: Conceptualized multi-stage CNN classification pipeline utilized in the research methodology.</em>
 </p>
