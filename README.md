@@ -72,3 +72,8 @@ The model was evaluated using four strict metrics designed for high-altitude com
 * **Recall:** 90.3%
 * **Frames Per Second (FPS):** 28 FPS
 * **Small Object Detection Accuracy (SODA):** 85.4%
+
+## 🛡️ Project Engineering Team
+* **Montazar Matlih** — Lead Machine Learning Architect
+* **Arjay Almazan** — Data Operations Engineer
+* **Richard Dolores** — Data Operations Engineer
