@@ -6,9 +6,10 @@
 [![Framework](https://img.shields.io/badge/framework-YOLOv11-green.svg)]()
 [![Data Privacy](https://img.shields.io/badge/Data_Privacy-Sanitized-brightgreen.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Preprint](https://img.shields.io/badge/ResearchGate-Preprint-00CCBB.svg)](https://doi.org/10.13140/RG.2.2.31747.46888)
 
 ## 🏛️ System Architecture
-This repository contains the inference logic for an aerial-perspective object detection system developed as a Grade 12 (SHS) Capstone Research project. 
+This repository contains the inference logic for an aerial-perspective object detection system developed as a Grade 12 (SHS) Capstone Research project [DOI](https://doi.org/10.13140/RG.2.2.31747.46888). 
 *The logic flow derived from the research manuscript (illustrated in Figure 1 below) conceptualizes the multi-stage pipeline—from pre-processing localized inputs to feature extraction, multi-class categorization, and visualization.*
 
 <p align="center">
@@ -72,6 +73,9 @@ The model was evaluated using four strict metrics designed for high-altitude com
 * **Recall:** 90.3%
 * **Frames Per Second (FPS):** 28 FPS
 * **Small Object Detection Accuracy (SODA):** 85.4%
+
+### Citation: 
+For full methodology and evaluation protocols, review the preprint: [Utilization of Convolutional Neural Networks using YOLOv11 for Real-Time Aerial Vehicle Detection and Classification.](https://doi.org/10.13140/RG.2.2.31747.46888)
 
 ## 🛡️ Project Engineering Team
 * **Montazar Matlih** — Lead Machine Learning Architect
